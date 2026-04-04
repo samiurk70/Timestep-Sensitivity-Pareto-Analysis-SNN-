@@ -1,0 +1,778 @@
+{
+  "thyroid": {
+    "snn": {
+      "f1_mean": 0.75715244134299,
+      "f1_std": 0.023532580250151324,
+      "auc_mean": 0.9679873772791023,
+      "auc_std": 0.0037392481356260127,
+      "precision_mean": 0.6679170521390019,
+      "precision_std": 0.035036303771111714,
+      "recall_mean": 0.8752688171101861,
+      "recall_std": 0.010965633361386035,
+      "latency_ms_mean": 6.3862032000906765,
+      "latency_ms_std": 0.12036577724958007,
+      "latency_std_ms_mean": 0.22206763888383074,
+      "latency_std_ms_std": 0.0416159564071768,
+      "synops_per_sample_mean": 8425.0875,
+      "synops_per_sample_std": 190.76703970419,
+      "energy_nJ_projected_mean": 0.038755402499999994,
+      "energy_nJ_projected_std": 0.0008775283826392749,
+      "per_seed": [
+        {
+          "f1": 0.7922705314009661,
+          "auc": 0.968340930341281,
+          "precision": 0.7192982455509388,
+          "recall": 0.8817204300127183,
+          "latency_ms": 6.453512000007322,
+          "latency_std_ms": 0.2647830721959339,
+          "threshold": 0.0015043929452076554,
+          "synops_per_sample": 8639.0625,
+          "energy_nJ_projected": 0.0397396875,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 0
+        },
+        {
+          "f1": 0.72,
+          "auc": 0.9638265544647031,
+          "precision": 0.6136363635898759,
+          "recall": 0.8709677418418315,
+          "latency_ms": 6.145640000177082,
+          "latency_std_ms": 0.17545770629264493,
+          "threshold": 0.0015234051970764995,
+          "synops_per_sample": 8190.875,
+          "energy_nJ_projected": 0.037678025,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 1
+        },
+        {
+          "f1": 0.7545454545454545,
+          "auc": 0.9724316269284713,
+          "precision": 0.6535433070351541,
+          "recall": 0.8924731181836051,
+          "latency_ms": 6.44201399947633,
+          "latency_std_ms": 0.1982142122901281,
+          "threshold": 0.001564248581416905,
+          "synops_per_sample": 8657.1875,
+          "energy_nJ_projected": 0.0398230625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 2
+        },
+        {
+          "f1": 0.7677725118483413,
+          "auc": 0.9717011453950445,
+          "precision": 0.6864406779079288,
+          "recall": 0.8709677418418315,
+          "latency_ms": 6.448608000209788,
+          "latency_std_ms": 0.19288126378251963,
+          "threshold": 0.0014053761260583997,
+          "synops_per_sample": 8369.1875,
+          "energy_nJ_projected": 0.0384982625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 3
+        },
+        {
+          "f1": 0.7511737089201878,
+          "auc": 0.9636366292660122,
+          "precision": 0.6666666666111112,
+          "recall": 0.8602150536709446,
+          "latency_ms": 6.441242000582861,
+          "latency_std_ms": 0.2790019398579271,
+          "threshold": 0.0016061271307989955,
+          "synops_per_sample": 8269.125,
+          "energy_nJ_projected": 0.038037975,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "ann": {
+      "f1_mean": 0.6745987309415737,
+      "f1_std": 0.29290566369236415,
+      "auc_mean": 0.8966485507246376,
+      "auc_std": 0.19253900137950974,
+      "precision_mean": 0.5989634550975044,
+      "precision_std": 0.22819979677008492,
+      "recall_mean": 0.7870967741089144,
+      "recall_std": 0.36129032254179677,
+      "latency_ms_mean": 0.2704315998998936,
+      "latency_ms_std": 0.011660296214344949,
+      "latency_std_ms_mean": 0.09992889223602948,
+      "latency_std_ms_std": 0.03558324066068306,
+      "flops_per_sample_mean": 2816.0,
+      "flops_per_sample_std": 0.0,
+      "energy_nJ_actual_mean": 0.5632,
+      "energy_nJ_actual_std": 0.0,
+      "per_seed": [
+        {
+          "f1": 0.8256880733944955,
+          "auc": 0.9933526180458158,
+          "precision": 0.7199999999424,
+          "recall": 0.9677419353798128,
+          "latency_ms": 0.267638000077568,
+          "latency_std_ms": 0.07295967270683643,
+          "threshold": 4.426865780260414e-05,
+          "flops_per_sample": 2816.0,
+          "energy_nJ_actual": 0.5632,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 0
+        },
+        {
+          "f1": 0.8108108108108109,
+          "auc": 0.9928266713417484,
+          "precision": 0.6976744185505678,
+          "recall": 0.9677419353798128,
+          "latency_ms": 0.25046400041901506,
+          "latency_std_ms": 0.043671440280224745,
+          "threshold": 4.8701804189477116e-05,
+          "flops_per_sample": 2816.0,
+          "energy_nJ_actual": 0.5632,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 1
+        },
+        {
+          "f1": 0.821917808219178,
+          "auc": 0.9928266713417485,
+          "precision": 0.714285714229025,
+          "recall": 0.9677419353798128,
+          "latency_ms": 0.28620800032513216,
+          "latency_std_ms": 0.1369509848276941,
+          "threshold": 4.91629216412548e-05,
+          "flops_per_sample": 2816.0,
+          "energy_nJ_actual": 0.5632,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 2
+        },
+        {
+          "f1": 0.08888888888888889,
+          "auc": 0.511570827489481,
+          "precision": 0.14285714282312925,
+          "recall": 0.06451612902532085,
+          "latency_ms": 0.2740099992661271,
+          "latency_std_ms": 0.12251713801429752,
+          "threshold": 0.05863385647535324,
+          "flops_per_sample": 2816.0,
+          "energy_nJ_actual": 0.5632,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 3
+        },
+        {
+          "f1": 0.8256880733944955,
+          "auc": 0.9926659654043946,
+          "precision": 0.7199999999424,
+          "recall": 0.9677419353798128,
+          "latency_ms": 0.2738379994116258,
+          "latency_std_ms": 0.1235452253510946,
+          "threshold": 4.754283872898668e-05,
+          "flops_per_sample": 2816.0,
+          "energy_nJ_actual": 0.5632,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "baselines": {
+      "IsoForest": {
+        "f1": 0.6996197718631179,
+        "auc": 0.9860770219728845,
+        "precision": 0.5411764705564014,
+        "recall": 0.9892473117215864
+      },
+      "OCSVM": {
+        "f1": 0.6915887850467289,
+        "auc": 0.9626870032725572,
+        "precision": 0.6115702478833414,
+        "recall": 0.7956989246456239
+      },
+      "LOF": {
+        "f1": 0.7745098039215687,
+        "auc": 0.9767268583450212,
+        "precision": 0.7117117116475936,
+        "recall": 0.8494623655000578
+      }
+    }
+  },
+  "cardio": {
+    "snn": {
+      "f1_mean": 0.5160469672976732,
+      "f1_std": 0.016099982209449016,
+      "auc_mean": 0.7398062166731695,
+      "auc_std": 0.017054443929684422,
+      "precision_mean": 0.9107503572278018,
+      "precision_std": 0.015722316054095943,
+      "recall_mean": 0.36008583690214413,
+      "recall_std": 0.01353122984557611,
+      "latency_ms_mean": 7.824100800207816,
+      "latency_ms_std": 1.0872417960723184,
+      "latency_std_ms_mean": 1.0759638239928742,
+      "latency_std_ms_std": 0.694572665027632,
+      "synops_per_sample_mean": 12646.2625,
+      "synops_per_sample_std": 709.8467351081852,
+      "energy_nJ_projected_mean": 0.0581728075,
+      "energy_nJ_projected_std": 0.003265294981497653,
+      "per_seed": [
+        {
+          "f1": 0.5092592592592593,
+          "auc": 0.7332813109637144,
+          "precision": 0.9065934065435938,
+          "recall": 0.3540772532112859,
+          "latency_ms": 6.729032000439474,
+          "latency_std_ms": 0.6363407991662168,
+          "threshold": 0.01443241722881794,
+          "synops_per_sample": 12831.03125,
+          "energy_nJ_projected": 0.05902274375,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 0
+        },
+        {
+          "f1": 0.5114854517611026,
+          "auc": 0.7297177786448172,
+          "precision": 0.8930481282944893,
+          "recall": 0.35836909870475603,
+          "latency_ms": 7.324256000720197,
+          "latency_std_ms": 0.5092076416723588,
+          "threshold": 0.01441508624702692,
+          "synops_per_sample": 11247.6875,
+          "energy_nJ_projected": 0.0517393625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 1
+        },
+        {
+          "f1": 0.5382262996941896,
+          "auc": 0.7686175055273767,
+          "precision": 0.9361702127161611,
+          "recall": 0.3776824034253716,
+          "latency_ms": 9.895731999858981,
+          "latency_std_ms": 2.317075876130325,
+          "threshold": 0.019575832411646843,
+          "synops_per_sample": 13209.59375,
+          "energy_nJ_projected": 0.06076413125,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 2
+        },
+        {
+          "f1": 0.49221183800623053,
+          "auc": 0.7479451164000521,
+          "precision": 0.8977272726762655,
+          "recall": 0.33905579398414043,
+          "latency_ms": 7.7533239996409975,
+          "latency_std_ms": 1.3646553287951957,
+          "threshold": 0.014529830776154995,
+          "synops_per_sample": 12984.90625,
+          "energy_nJ_projected": 0.05973056875,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 3
+        },
+        {
+          "f1": 0.5290519877675841,
+          "auc": 0.7194693718298869,
+          "precision": 0.9202127659084993,
+          "recall": 0.3712446351851664,
+          "latency_ms": 7.41816000037943,
+          "latency_std_ms": 0.5525394742002736,
+          "threshold": 0.014884448610246181,
+          "synops_per_sample": 12958.09375,
+          "energy_nJ_projected": 0.05960723125,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "ann": {
+      "f1_mean": 0.3727538094836704,
+      "f1_std": 0.06695817052450964,
+      "auc_mean": 0.7383365847314345,
+      "auc_std": 0.021374560586056676,
+      "precision_mean": 0.8739649211597534,
+      "precision_std": 0.019096361645968587,
+      "recall_mean": 0.23905579398628635,
+      "recall_std": 0.05368410806535039,
+      "latency_ms_mean": 0.3437284003593959,
+      "latency_ms_std": 0.03776627122752938,
+      "latency_std_ms_mean": 0.22818736027848133,
+      "latency_std_ms_std": 0.031962456121033565,
+      "flops_per_sample_mean": 4736.0,
+      "flops_per_sample_std": 0.0,
+      "energy_nJ_actual_mean": 0.9472000000000002,
+      "energy_nJ_actual_std": 1.1102230246251565e-16,
+      "per_seed": [
+        {
+          "f1": 0.28214285714285714,
+          "auc": 0.7368643516712186,
+          "precision": 0.8404255318254867,
+          "recall": 0.16952789699207022,
+          "latency_ms": 0.34988799976417795,
+          "latency_std_ms": 0.28128546402335974,
+          "threshold": 0.07466597110033035,
+          "flops_per_sample": 4736.0,
+          "energy_nJ_actual": 0.9472,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 0
+        },
+        {
+          "f1": 0.4779874213836478,
+          "auc": 0.7665886331122382,
+          "precision": 0.8941176470062283,
+          "recall": 0.32618025750373003,
+          "latency_ms": 0.41365200027939864,
+          "latency_std_ms": 0.2230796091329886,
+          "threshold": 0.028691651299595833,
+          "flops_per_sample": 4736.0,
+          "energy_nJ_actual": 0.9472,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 1
+        },
+        {
+          "f1": 0.4019933554817276,
+          "auc": 0.7580764728833398,
+          "precision": 0.8897058822875216,
+          "recall": 0.259656652354943,
+          "latency_ms": 0.3306480008177459,
+          "latency_std_ms": 0.24111514586612987,
+          "threshold": 0.045345865190029144,
+          "flops_per_sample": 4736.0,
+          "energy_nJ_actual": 0.9472,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 2
+        },
+        {
+          "f1": 0.3764705882352941,
+          "auc": 0.717557549746391,
+          "precision": 0.8682170541962622,
+          "recall": 0.24034334763432738,
+          "latency_ms": 0.30730600061360747,
+          "latency_std_ms": 0.2086794975817799,
+          "threshold": 0.048840489238500595,
+          "flops_per_sample": 4736.0,
+          "energy_nJ_actual": 0.9472,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 3
+        },
+        {
+          "f1": 0.32517482517482516,
+          "auc": 0.712595916243985,
+          "precision": 0.8773584904832681,
+          "recall": 0.19957081544636113,
+          "latency_ms": 0.3171480003220495,
+          "latency_std_ms": 0.18677708478814853,
+          "threshold": 0.052718374878168106,
+          "flops_per_sample": 4736.0,
+          "energy_nJ_actual": 0.9472,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "baselines": {
+      "IsoForest": {
+        "f1": 0.6118980169971672,
+        "auc": 0.8457406684874497,
+        "precision": 0.8999999999625,
+        "recall": 0.46351931329477425
+      },
+      "OCSVM": {
+        "f1": 0.624113475177305,
+        "auc": 0.8443880868773572,
+        "precision": 0.9205020920116944,
+        "recall": 0.47210300428171453
+      },
+      "LOF": {
+        "f1": 0.38421955403087477,
+        "auc": 0.8131551567173884,
+        "precision": 0.9572649571831398,
+        "recall": 0.24034334763432738
+      }
+    }
+  },
+  "nslkdd": {
+    "snn": {
+      "f1_mean": 0.9467742410162321,
+      "f1_std": 0.004005632142983438,
+      "auc_mean": 0.9782427625666147,
+      "auc_std": 0.0005948634578088569,
+      "precision_mean": 0.9874260302521642,
+      "precision_std": 0.0006279032039400313,
+      "recall_mean": 0.9093608779838405,
+      "recall_std": 0.007038344255378713,
+      "latency_ms_mean": 6.502139200019883,
+      "latency_ms_std": 0.08197209085006336,
+      "latency_std_ms_mean": 0.14346441883359468,
+      "latency_std_ms_std": 0.022083003402694777,
+      "synops_per_sample_mean": 15434.2,
+      "synops_per_sample_std": 943.0883213543681,
+      "energy_nJ_projected_mean": 0.07099732,
+      "energy_nJ_projected_std": 0.00433820627823009,
+      "per_seed": [
+        {
+          "f1": 0.941560635063619,
+          "auc": 0.9782974950255547,
+          "precision": 0.987482286251801,
+          "recall": 0.8997202496214769,
+          "latency_ms": 6.364619999949355,
+          "latency_std_ms": 0.14945931599190376,
+          "threshold": 0.00965935830026865,
+          "synops_per_sample": 15576.25,
+          "energy_nJ_projected": 0.07165075,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 0
+        },
+        {
+          "f1": 0.9437521050858875,
+          "auc": 0.9771797392653353,
+          "precision": 0.9866197183075431,
+          "recall": 0.904454486763709,
+          "latency_ms": 6.477645999402739,
+          "latency_std_ms": 0.1397087482363632,
+          "threshold": 0.009208615869283676,
+          "synops_per_sample": 14749.6875,
+          "energy_nJ_projected": 0.0678485625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 1
+        },
+        {
+          "f1": 0.9457520735261152,
+          "auc": 0.9781343424680682,
+          "precision": 0.9869005847930131,
+          "recall": 0.907897568321696,
+          "latency_ms": 6.570130000618519,
+          "latency_std_ms": 0.12402323169358916,
+          "threshold": 0.011138669215142727,
+          "synops_per_sample": 14419.5625,
+          "energy_nJ_projected": 0.0663299875,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 2
+        },
+        {
+          "f1": 0.9513284215226613,
+          "auc": 0.9788237223014878,
+          "precision": 0.9884017629297416,
+          "recall": 0.9169356574114118,
+          "latency_ms": 6.5993639997032005,
+          "latency_std_ms": 0.18258045984355634,
+          "threshold": 0.009646897204220295,
+          "synops_per_sample": 17139.1875,
+          "energy_nJ_projected": 0.0788402625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 3
+        },
+        {
+          "f1": 0.9514779698828778,
+          "auc": 0.9787785137726276,
+          "precision": 0.9877257989787223,
+          "recall": 0.9177964278009085,
+          "latency_ms": 6.498936000425601,
+          "latency_std_ms": 0.12155033840256095,
+          "threshold": 0.010310325771570206,
+          "synops_per_sample": 15286.3125,
+          "energy_nJ_projected": 0.0703170375,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "ann": {
+      "f1_mean": 0.8822774068677381,
+      "f1_std": 0.01772114481691805,
+      "auc_mean": 0.8957826470377261,
+      "auc_std": 0.033404802252661035,
+      "precision_mean": 0.985777545386649,
+      "precision_std": 0.001175707196501763,
+      "recall_mean": 0.7989240370114075,
+      "recall_std": 0.02888125174984277,
+      "latency_ms_mean": 0.35902080009691417,
+      "latency_ms_std": 0.08469215342936474,
+      "latency_std_ms_mean": 0.0791215260200531,
+      "latency_std_ms_std": 0.016224293412539365,
+      "flops_per_sample_mean": 6912.0,
+      "flops_per_sample_std": 0.0,
+      "energy_nJ_actual_mean": 1.3824,
+      "energy_nJ_actual_std": 0.0,
+      "per_seed": [
+        {
+          "f1": 0.8845197204785029,
+          "auc": 0.8963268974471648,
+          "precision": 0.983667017911002,
+          "recall": 0.8035291585952151,
+          "latency_ms": 0.2730479995079804,
+          "latency_std_ms": 0.0712096687982773,
+          "threshold": 0.04394911602139473,
+          "flops_per_sample": 6912.0,
+          "energy_nJ_actual": 1.3824,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 0
+        },
+        {
+          "f1": 0.8518654434250764,
+          "auc": 0.8587664461093238,
+          "precision": 0.9869614512443681,
+          "recall": 0.74930062405692,
+          "latency_ms": 0.2397400001063943,
+          "latency_std_ms": 0.06091948132704528,
+          "threshold": 0.03622095286846161,
+          "flops_per_sample": 6912.0,
+          "energy_nJ_actual": 1.3824,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 1
+        },
+        {
+          "f1": 0.8915605846298915,
+          "auc": 0.8841570628681859,
+          "precision": 0.9856658848032691,
+          "recall": 0.8138584032691761,
+          "latency_ms": 0.4383879996021278,
+          "latency_std_ms": 0.0965637114169692,
+          "threshold": 0.029547326266765594,
+          "flops_per_sample": 6912.0,
+          "energy_nJ_actual": 1.3824,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 2
+        },
+        {
+          "f1": 0.8780138457865839,
+          "auc": 0.8816406556884284,
+          "precision": 0.9857946931091242,
+          "recall": 0.7914783731422607,
+          "latency_ms": 0.41866800078423694,
+          "latency_std_ms": 0.1004926037209738,
+          "threshold": 0.0583576001226902,
+          "flops_per_sample": 6912.0,
+          "energy_nJ_actual": 1.3824,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 3
+        },
+        {
+          "f1": 0.905427440018635,
+          "auc": 0.9580221730755282,
+          "precision": 0.9867986798654816,
+          "recall": 0.8364536259934658,
+          "latency_ms": 0.4252600004838314,
+          "latency_std_ms": 0.06642216483699992,
+          "threshold": 0.03919579088687897,
+          "flops_per_sample": 6912.0,
+          "energy_nJ_actual": 1.3824,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "baselines": {
+      "IsoForest": {
+        "f1": 0.8964064146084514,
+        "auc": 0.973972847154786,
+        "precision": 0.982802874740804,
+        "recall": 0.8239724553457629
+      },
+      "OCSVM": {
+        "f1": 0.955449394511721,
+        "auc": 0.9666346992135926,
+        "precision": 0.9875976113895554,
+        "recall": 0.9253281687090051
+      },
+      "LOF": {
+        "f1": 0.941124683613954,
+        "auc": 0.9117607878098517,
+        "precision": 0.9630630630608941,
+        "recall": 0.9201635463720246
+      }
+    }
+  },
+  "unswnb15": {
+    "snn": {
+      "f1_mean": 0.5481176305675645,
+      "f1_std": 0.0064869189322165404,
+      "auc_mean": 0.7211394435545715,
+      "auc_std": 0.013003046929915048,
+      "precision_mean": 0.9772604490565338,
+      "precision_std": 0.00041879860021427467,
+      "recall_mean": 0.3808947828620005,
+      "recall_std": 0.0062213871080109805,
+      "latency_ms_mean": 8.749666799994884,
+      "latency_ms_std": 1.7871449860299486,
+      "latency_std_ms_mean": 0.22745414348180634,
+      "latency_std_ms_std": 0.055828515067685734,
+      "synops_per_sample_mean": 18384.225,
+      "synops_per_sample_std": 1213.2708270479534,
+      "energy_nJ_projected_mean": 0.08456743500000001,
+      "energy_nJ_projected_std": 0.005581045804420583,
+      "per_seed": [
+        {
+          "f1": 0.5442931496766732,
+          "auc": 0.7340855437348297,
+          "precision": 0.9772512743052886,
+          "recall": 0.37718595161746676,
+          "latency_ms": 10.199445999896852,
+          "latency_std_ms": 0.273208891067099,
+          "threshold": 0.0020462018437683582,
+          "synops_per_sample": 17284.4375,
+          "energy_nJ_projected": 0.0795084125,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 0
+        },
+        {
+          "f1": 0.5589383294301327,
+          "auc": 0.7207823611779385,
+          "precision": 0.9779639409934638,
+          "recall": 0.3912853395510087,
+          "latency_ms": 10.247138000122504,
+          "latency_std_ms": 0.23278996159230914,
+          "threshold": 0.002110200235620141,
+          "synops_per_sample": 17216.65625,
+          "energy_nJ_projected": 0.07919661875,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 1
+        },
+        {
+          "f1": 0.5413363533408834,
+          "auc": 0.7159003742979773,
+          "precision": 0.9768082881846052,
+          "recall": 0.37441707956850245,
+          "latency_ms": 10.178380000143079,
+          "latency_std_ms": 0.30203999877669974,
+          "threshold": 0.0022062533535063267,
+          "synops_per_sample": 17793.9375,
+          "energy_nJ_projected": 0.0818521125,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 2
+        },
+        {
+          "f1": 0.5439680328084334,
+          "auc": 0.7351167837342586,
+          "precision": 0.9768671513540016,
+          "recall": 0.3769309239287464,
+          "latency_ms": 6.630263999832096,
+          "latency_std_ms": 0.16366294158392208,
+          "threshold": 0.002093801274895668,
+          "synops_per_sample": 19391.21875,
+          "energy_nJ_projected": 0.08919960625,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 3
+        },
+        {
+          "f1": 0.5520522875816993,
+          "auc": 0.6998121548278534,
+          "precision": 0.9774115904453088,
+          "recall": 0.3846546196442784,
+          "latency_ms": 6.493105999979889,
+          "latency_std_ms": 0.16556892438900161,
+          "threshold": 0.0021922304295003414,
+          "synops_per_sample": 20234.875,
+          "energy_nJ_projected": 0.093080425,
+          "energy_basis": "Loihi2_4.6fJ_per_synop",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "ann": {
+      "f1_mean": 0.18629370805410422,
+      "f1_std": 0.14565303327179518,
+      "auc_mean": 0.5045389299358976,
+      "auc_std": 0.11325200113379319,
+      "precision_mean": 0.8824317882177383,
+      "precision_std": 0.06823155690214235,
+      "recall_mean": 0.11140338093846132,
+      "recall_std": 0.09762374811284646,
+      "latency_ms_mean": 0.26737479987787083,
+      "latency_ms_std": 0.013631685773016796,
+      "latency_std_ms_mean": 0.10406185305949926,
+      "latency_std_ms_std": 0.03271578084488049,
+      "flops_per_sample_mean": 7040.0,
+      "flops_per_sample_std": 0.0,
+      "energy_nJ_actual_mean": 1.4080000000000001,
+      "energy_nJ_actual_std": 0.0,
+      "per_seed": [
+        {
+          "f1": 0.0803580722389924,
+          "auc": 0.483837134635301,
+          "precision": 0.8434085943128667,
+          "recall": 0.04218886621974563,
+          "latency_ms": 0.2572619997954462,
+          "latency_std_ms": 0.07703073664626027,
+          "threshold": 0.025883067399263382,
+          "flops_per_sample": 7040.0,
+          "energy_nJ_actual": 1.4080000000000001,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 0
+        },
+        {
+          "f1": 0.4486719713100975,
+          "auc": 0.7046388871892607,
+          "precision": 0.9712518195039164,
+          "recall": 0.2917152433691738,
+          "latency_ms": 0.2651360008167103,
+          "latency_std_ms": 0.08936197966732799,
+          "threshold": 0.004966387990862131,
+          "flops_per_sample": 7040.0,
+          "energy_nJ_actual": 1.4080000000000001,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 1
+        },
+        {
+          "f1": 0.1108685269836938,
+          "auc": 0.4371797757752819,
+          "precision": 0.8708467309706814,
+          "recall": 0.059202856310092096,
+          "latency_ms": 0.27098599923192523,
+          "latency_std_ms": 0.0952402836270471,
+          "threshold": 0.046049270778894424,
+          "flops_per_sample": 7040.0,
+          "energy_nJ_actual": 1.4080000000000001,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 2
+        },
+        {
+          "f1": 0.23808462542583336,
+          "auc": 0.5286689622200752,
+          "precision": 0.9439535470816866,
+          "recall": 0.13622121830365191,
+          "latency_ms": 0.25211599975591525,
+          "latency_std_ms": 0.09029172862403048,
+          "threshold": 0.02422378398478031,
+          "flops_per_sample": 7040.0,
+          "energy_nJ_actual": 1.4080000000000001,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 3
+        },
+        {
+          "f1": 0.05348534431190401,
+          "auc": 0.36836988985956864,
+          "precision": 0.7826982492195397,
+          "recall": 0.027688720489643073,
+          "latency_ms": 0.2913739997893572,
+          "latency_std_ms": 0.16838453673283052,
+          "threshold": 0.04860451817512512,
+          "flops_per_sample": 7040.0,
+          "energy_nJ_actual": 1.4080000000000001,
+          "energy_basis": "GPU_200fJ_per_FLOP",
+          "seed": 4
+        }
+      ],
+      "n_seeds": 5
+    },
+    "baselines": {
+      "IsoForest": {
+        "f1": 0.3773518551081414,
+        "auc": 0.7107058680549072,
+        "precision": 0.9646388972116203,
+        "recall": 0.23455260856884488
+      },
+      "OCSVM": {
+        "f1": 0.3587738782763216,
+        "auc": 0.541934799619648,
+        "precision": 0.9588412220975798,
+        "recall": 0.2206718157970633
+      },
+      "LOF": {
+        "f1": 0.7927660965246759,
+        "auc": 0.8816275135859162,
+        "precision": 0.9861766140830562,
+        "recall": 0.6627805304573511
+      }
+    }
+  }
+}

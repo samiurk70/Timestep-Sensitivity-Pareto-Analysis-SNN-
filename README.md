@@ -152,14 +152,14 @@ Timestep-Sensitivity-Pareto-Analysis-SNN/
 ├── energy_sensitivity_figure.py    # Standalone Fig. 2 generation script
 ├── requirements.txt                # Exact package versions
 └── README.md
----
+```
 
 ## Setup and Reproduction
 
 ### Requirements
 ```bash
 pip install -r requirements.txt
-```
+
 
 Core dependencies:
 

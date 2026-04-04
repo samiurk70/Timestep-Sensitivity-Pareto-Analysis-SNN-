@@ -127,7 +127,8 @@ computation.
 
 ## Repository Structure
 
-SNN-Abnormality-Detection/
+Timestep-Sensitivity-Pareto-Analysis-SNN-/
+
 ├── src/
 │   ├── models/
 │   │   ├── snn_autoencoder.py     # LIF autoencoder implementation

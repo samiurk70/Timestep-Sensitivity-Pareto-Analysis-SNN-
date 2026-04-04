@@ -4,8 +4,8 @@
 
 ### 1. Clone the repo and create your branch
 ```bash
-git clone https://github.com/YOUR_USERNAME/SNN-Abnormality-Detection.git
-cd SNN-Abnormality-Detection
+git clone https://github.com/samiurk70/Timestep-Sensitivity-Pareto-Analysis-SNN-.git
+cd Timestep-Sensitivity-Pareto-Analysis-SNN-
 git checkout -b experiment/neuromorphic-snn
 git push -u origin experiment/neuromorphic-snn
 ```

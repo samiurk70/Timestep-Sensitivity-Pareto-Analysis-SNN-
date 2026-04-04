@@ -127,32 +127,31 @@ computation.
 
 ## Repository Structure
 
-Timestep-Sensitivity-Pareto-Analysis-SNN-/
-
+```text
+Timestep-Sensitivity-Pareto-Analysis-SNN/
 ├── src/
 │   ├── models/
-│   │   ├── snn_autoencoder.py     # LIF autoencoder implementation
-│   │   ├── ann_autoencoder.py     # ANN baseline
-│   │   └── baselines.py           # IsoForest, OCSVM, LOF
+│   │   ├── snn_autoencoder.py      # LIF autoencoder implementation
+│   │   ├── ann_autoencoder.py      # ANN baseline
+│   │   └── baselines.py            # IsoForest, OCSVM, LOF
 │   ├── data/
-│   │   └── loader.py              # DataManager — all four datasets
+│   │   └── loader.py               # DataManager — all four datasets
 │   ├── evaluation/
-│   │   ├── trainer.py             # Training loop
-│   │   └── metrics.py             # F1, AUC, multi-seed evaluation
+│   │   ├── trainer.py              # Training loop
+│   │   └── metrics.py              # F1, AUC, multi-seed evaluation
 │   ├── visualise/
-│   │   └── visualise.py           # All figure generation functions
+│   │   └── visualise.py            # All figure generation functions
 │   └── neuromorphic/
-│       └── lif_neuron.py          # Standalone LIF neuron demo
-├── data/                          # Dataset files (see setup below)
-├── results/                       # Saved JSON results and figures
-│   ├── results.json               # Main experiment results
-│   ├── t_sensitivity.json         # T-sweep results
-│   └── *.png                      # Generated figures
-├── experiment.ipynb               # Main experimental notebook
-├── energy_sensitivity_figure.py   # Standalone Fig. 2 generation script
-├── requirements.txt               # Exact package versions
+│       └── lif_neuron.py           # Standalone LIF neuron demo
+├── data/                           # Dataset files (see setup below)
+├── results/                        # Saved JSON results and figures
+│   ├── results.json                # Main experiment results
+│   ├── t_sensitivity.json          # T-sweep results
+│   └── *.png                       # Generated figures
+├── experiment.ipynb                # Main experimental notebook
+├── energy_sensitivity_figure.py    # Standalone Fig. 2 generation script
+├── requirements.txt                # Exact package versions
 └── README.md
-
 ---
 
 ## Setup and Reproduction

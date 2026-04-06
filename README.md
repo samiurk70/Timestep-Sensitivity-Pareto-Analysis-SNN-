@@ -239,20 +239,9 @@ Full experiment on RTX 4070 Laptop GPU:
 
 ## Citation
 
-If you use this code or build on this work please cite the arXiv preprint:
-```bibtex
-@misc{khan2025snn,
-  author    = {Samiur Rahman Khan},
-  title     = {Timestep-Sensitivity Pareto Analysis of Spiking Neural 
-               Network Autoencoders for Energy-Efficient Anomaly 
-               Detection: A Simulation Study with Projected 
-               Neuromorphic Energy},
-  year      = {2025},
-  publisher = {arXiv},
-  note      = {arXiv preprint},
-  url       = {https://arxiv.org/abs/XXXX.XXXXX}
-}
-```
+Currently Sumbitted to ACM conference ICONS2026 
+
+### Title: T=8 or Not T=8: Pareto-Optimal Timestep Selection for Energy-Efficient SNN Anomaly Detection
 
 ---
 

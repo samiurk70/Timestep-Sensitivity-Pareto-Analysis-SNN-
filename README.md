@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.6.0-orange)
 ![SpikingJelly](https://img.shields.io/badge/SpikingJelly-0.0.0.0.14-green)
-![arXiv](https://img.shields.io/badge/arXiv-preprint-red)
+![Status](https://img.shields.io/badge/Status-Under%20Review-yellow)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 > **Samiur Rahman Khan**
@@ -237,9 +237,7 @@ Full experiment on RTX 4070 Laptop GPU:
 
 ---
 
-## Citation
-
-Currently Sumbitted to ACM conference ICONS2026 
+## Under review at ACM ICONS 2026. Citation will be updated upon acceptance.
 
 ### Title: T=8 or Not T=8: Pareto-Optimal Timestep Selection for Energy-Efficient SNN Anomaly Detection
 

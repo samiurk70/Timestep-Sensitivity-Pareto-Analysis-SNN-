@@ -31,6 +31,11 @@ inference energies 14.5 to 19.5 times lower than the ANN baseline.
 
 ---
 
+## Research Question
+
+> *Can Spiking Neural Networks approximate the anomaly detection capability of conventional autoencoders while substantially reducing multiply-accumulate operations, and what is the nature of the energy-accuracy tradeoff?*
+
+---
 ## Research Contributions
 
 1. **T-sensitivity Pareto frontier analysis** — first systematic 

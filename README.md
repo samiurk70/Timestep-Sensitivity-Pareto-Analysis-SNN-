@@ -18,8 +18,8 @@
 
 Spiking Neural Networks offer a promising pathway to energy-efficient 
 anomaly detection on resource-constrained hardware, yet the timestep 
-parameter T — which governs the tradeoff between detection accuracy and 
-inference energy in Leaky Integrate-and-Fire architectures — has not been 
+parameter T which governs the tradeoff between detection accuracy and 
+inference energy in Leaky Integrate-and-Fire architectures has not been 
 systematically characterised as a design variable in prior work. This paper 
 presents a Pareto frontier analysis of T across {4, 8, 16, 32} on four 
 benchmark datasets spanning anomaly rates from 2.5 to 54.9 percent, 
